@@ -1,0 +1,62 @@
+{
+  "name": "@10up/component-audio",
+  "version": "0.1.0",
+  "author": "10up",
+  "description": "Accessible audio component.",
+  "main": "./dist/audio.js",
+  "style": "./dist/audio.css",
+  "scripts": {
+    "start": "npm install && npm audit fix && npm update && npm run build",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10up/component-audio.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/10up/component-audio/issues"
+  },
+  "homepage": "https://github.com/10up/component-audio#readme",
+  "devDependencies": {
+    "@10up/eslint-config": "^2.1.1",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^22.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^25.3.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "postcss": "^7.0.35",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "prettier": "^2.2.1",
+    "puppeteer": "^2.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "IE 11"
+  ]
+}
