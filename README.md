@@ -17,118 +17,141 @@
 
 Clone this repo and import `audio.js` and `audio.css` from the `dist/` directory.
 
-## API
-
-### Methods
+## Methods
 The following lists the latest supported callbacks. Each callback receives an instance of the player.
 
-#### onplay
+### onplay
 Fires when the audio has been started or is no longer paused
+
 `onplay`: (playerInstance) => {}
 
-#### onpause
+### onpause
 Fires when the audio/video has been paused
+
 `onpause: (playerInstance) => {}`
 
-#### onerror
+### onerror
 Fires when an error occurred during the loading of an audio
+
 `onerror: (playerInstance) => {}`
 
-#### onloadstart
+### onloadstart
 Fires when the browser starts looking for the audio
+
 `onloadstart: (playerInstance) => {}`
 
-#### onended
+### onended
 Fires when the current playlist is ended
+
 `onended: (playerInstance) => {}`
 
-#### onplaying
+### onplaying
 Fires when the audio is playing after having been paused or stopped for buffering
+
 `onplaying: (playerInstance) => {}`
 
-#### onprogress
+### onprogress
 Fires when the browser is downloading the audio
+
 `onprogress: (playerInstance) => {}`
 
-#### onseeking
+### onseeking
 Fires when the user starts moving/skipping to a new position in the audio
+
 `onseeking: (playerInstance) => {}`
 
-#### onseeked
+### onseeked
 Fires when the user is finished moving/skipping to a new position in the audio
+
 `onseeked: (playerInstance) => {}`
 
-#### ontimeupdate
+### ontimeupdate
 Fires when the current playback position has changed
+
 `ontimeupdate: (playerInstance) => {}`
 
-#### onvolumechange
+### onvolumechange
 Fires when the volume has been changed
+
 `onvolumechange: (playerInstance) => {}`
 
 
-### Properties
+## Properties
 The following lists additional configurations accepted by the initialization object.
 
-#### playLabel: string
+### playLabel: string
 Label for the play button
+
 `playLabel: 'Play' // default`
 
-#### stopLabel: string
+### stopLabel: string
 Label for the stop button
+
 `stopLabel: 'Stop' // default`
 
-#### pauseLabel: string
+### pauseLabel: string
 Label for the pause button
+
 `pauseLabel: 'Pause' // default`
 
-#### muteLabel: string
+### muteLabel: string
 Label for the mute button
+
 `muteLabel: 'Mute' // default`
 
-#### volumeLabel: string
+### volumeLabel: string
 Label for the volume button
+
 `volumeLabel: 'Volume' // default`
 
-#### scrubberLabel: string
+### scrubberLabel: string
 Label for the scrubber slider
+
 `scrubberLabel: 'Scrub Timeline' // default`
 
-#### currentTimeLabel: string
+### currentTimeLabel: string
 Label for the current time
+
 `currentTimeLabel: 'Current Time' // default`
 
-#### totalTimeLabel: string
+### totalTimeLabel: string
 Label for the total time
+
 `totalTimeLabel: 'Total Time' // default`
 
-
-#### showMute: boolean
+### showMute: boolean
 Maybe show the mute button
+
 `showMute: true // default`
 
-#### showStop: boolean
+### showStop: boolean
 Maybe show the stop button
+
 `showStop: true // default`
 
-#### showTimer: boolean
+### showTimer: boolean
 Maybe show the timer control
+
 `showTimer: true // default`
 
-#### showVolume: boolean
+### showVolume: boolean
 Maybe show the volume control
+
 `showVolume: true // default`
 
-#### showScrubber: boolean
+### showScrubber: boolean
 Maybe show the scrubber control
+
 `showScrubber: true // default`
 
-#### localStorage: boolean
+### localStorage: boolean
 Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off.
+
 `localStorage: true // default`
 
-#### debug: boolean
+### debug: boolean
 Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser.
+
 `debug: false // default`
 
 ## Usage
