@@ -15,7 +15,6 @@
 
 `npm install --save @10up/component-audio`
 
-[View official documentation for this package](https://baseline.10up.com/component/component-audio)
 
 ### Standalone
 
@@ -96,7 +95,7 @@ Coming soon
 
 ## Demo
 
-Example implementations at: https://10up.github.io/component-audio/demo/
+Example implementations at: Coming soon
 
 ## Tests
 
