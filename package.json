@@ -1,6 +1,6 @@
 {
   "name": "@10up/component-audio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "10up",
   "description": "Accessible audio component.",
   "main": "./dist/audio.js",
