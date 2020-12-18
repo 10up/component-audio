@@ -29,7 +29,7 @@ export default class Audio {
 		this.className = selector;
 
 		// store name
-		this.name = selector.substring(1);
+		this.name = 'player';
 
 		// list of supported native audio events used to define
 		// available custom callbacks
