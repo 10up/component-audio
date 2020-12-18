@@ -1,3 +1,5 @@
+> NOTE: This is a very initial pass. Recommend waiting on first usage until fully tested. Updates coming shortly.
+
 # 10up Audio component
 
 [![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status][cli-img]][cli-url]
