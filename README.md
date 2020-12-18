@@ -23,7 +23,7 @@ The following lists the latest supported callbacks. Each callback receives an in
 ### onplay
 Fires when the audio has been started or is no longer paused
 
-`onplay`: (playerInstance) => {}
+`onplay: (playerInstance) => {}`
 
 ### onpause
 Fires when the audio/video has been paused
