@@ -89,13 +89,13 @@ The following is a list of optional properties, their types and usages.
 | volumeLabel | `Volume` | string | Label for the volume slider |
 | scrubberLabel | `Scrub Timeline` | string | Label for the scrubber slider |
 | currentTimeLabel | `Total Time` | string | Label for the total time |
-| showMute | true | `boolean` | Maybe show the mute button |
-| showStop | true | `boolean` | Maybe show the stop button |
-| showTimer | true | `boolean` | Maybe show the timer control |
-| showVolume | true | `boolean` | Maybe show the volume slider |
-| showScrubber | true | `boolean` | Maybe show the scrubber control |
-| localStorage | true | `boolean` | Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off. |
-| debug | true | `Boolean` | Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser. |
+| showMute | `true` | boolean | Maybe show the mute button |
+| showStop | `true` | boolean | Maybe show the stop button |
+| showTimer | `true` | boolean | Maybe show the timer control |
+| showVolume | `true` | boolean | Maybe show the volume slider |
+| showScrubber | `true` | boolean | Maybe show the scrubber control |
+| localStorage | `true` | boolean | Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off. |
+| debug | `true` | boolean | Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser. |
 
 ## Usage
 
