@@ -77,82 +77,25 @@ Fires when the volume has been changed
 
 
 ## Properties
-The following lists additional configurations accepted by the initialization object.
+The following is a list of optional properties, their types and usages.
 
-### playLabel: string
-Label for the play button
-
-`playLabel: 'Play' // default`
-
-### stopLabel: string
-Label for the stop button
-
-`stopLabel: 'Stop' // default`
-
-### pauseLabel: string
-Label for the pause button
-
-`pauseLabel: 'Pause' // default`
-
-### muteLabel: string
-Label for the mute button
-
-`muteLabel: 'Mute' // default`
-
-### volumeLabel: string
-Label for the volume button
-
-`volumeLabel: 'Volume' // default`
-
-### scrubberLabel: string
-Label for the scrubber slider
-
-`scrubberLabel: 'Scrub Timeline' // default`
-
-### currentTimeLabel: string
-Label for the current time
-
-`currentTimeLabel: 'Current Time' // default`
-
-### totalTimeLabel: string
-Label for the total time
-
-`totalTimeLabel: 'Total Time' // default`
-
-### showMute: boolean
-Maybe show the mute button
-
-`showMute: true // default`
-
-### showStop: boolean
-Maybe show the stop button
-
-`showStop: true // default`
-
-### showTimer: boolean
-Maybe show the timer control
-
-`showTimer: true // default`
-
-### showVolume: boolean
-Maybe show the volume control
-
-`showVolume: true // default`
-
-### showScrubber: boolean
-Maybe show the scrubber control
-
-`showScrubber: true // default`
-
-### localStorage: boolean
-Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off.
-
-`localStorage: true // default`
-
-### debug: boolean
-Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser.
-
-`debug: false // default`
+| Property | Default value | Type | Usage |
+|-|-|-|-|
+| playLabel | Play | String | Label for the play button |
+| playLabel | Stop | String | Label for the stop button |
+| stopLabel | Stop | String | Label for the pause button |
+| pauseLabel | Pause | String | Label for the mute button |
+| muteLabel | Mute | String | Label for the mute button |
+| volumeLabel | Volume | String | Label for the volume slider |
+| scrubberLabel | Scrub Timeline | String | Label for the scrubber slider |
+| currentTimeLabel | Total Time | String | Label for the total time |
+| showMute | true | Boolean | Maybe show the mute button |
+| showStop | true | Boolean | Maybe show the stop button |
+| showTimer | true | Boolean | Maybe show the timer control |
+| showVolume | true | Boolean | Maybe show the volume slider |
+| showScrubber | true | Boolean | Maybe show the scrubber control |
+| localStorage | true | Boolean | Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off. |
+| debug | true | Boolean | Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser. |
 
 ## Usage
 
