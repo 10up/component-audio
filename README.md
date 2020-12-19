@@ -81,21 +81,21 @@ The following is a list of optional properties, their types and usages.
 
 | Property | Default value | Type | Usage |
 |-|-|-|-|
-| playLabel | Play | String | Label for the play button |
-| playLabel | Stop | String | Label for the stop button |
-| stopLabel | Stop | String | Label for the pause button |
-| pauseLabel | Pause | String | Label for the mute button |
-| muteLabel | Mute | String | Label for the mute button |
-| volumeLabel | Volume | String | Label for the volume slider |
-| scrubberLabel | Scrub Timeline | String | Label for the scrubber slider |
-| currentTimeLabel | Total Time | String | Label for the total time |
-| showMute | true | Boolean | Maybe show the mute button |
-| showStop | true | Boolean | Maybe show the stop button |
-| showTimer | true | Boolean | Maybe show the timer control |
-| showVolume | true | Boolean | Maybe show the volume slider |
-| showScrubber | true | Boolean | Maybe show the scrubber control |
-| localStorage | true | Boolean | Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off. |
-| debug | true | Boolean | Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser. |
+| playLabel | `Play` | string | Label for the play button |
+| playLabel | `Stop` | string | Label for the stop button |
+| stopLabel | `Stop` | string | Label for the pause button |
+| pauseLabel | `Pause` | string | Label for the mute button |
+| muteLabel | `Mute` | string | Label for the mute button |
+| volumeLabel | `Volume` | string | Label for the volume slider |
+| scrubberLabel | `Scrub Timeline` | string | Label for the scrubber slider |
+| currentTimeLabel | `Total Time` | string | Label for the total time |
+| showMute | true | `boolean` | Maybe show the mute button |
+| showStop | true | `boolean` | Maybe show the stop button |
+| showTimer | true | `boolean` | Maybe show the timer control |
+| showVolume | true | `boolean` | Maybe show the volume slider |
+| showScrubber | true | `boolean` | Maybe show the scrubber control |
+| localStorage | true | `boolean` | Maybe enable localStorage. This allows a user to reload the page, and pickup where they last left off. |
+| debug | true | `Boolean` | Maybe turn on debug mode. Debug mode outputs helpful information in the console window of the browser. |
 
 ## Usage
 
